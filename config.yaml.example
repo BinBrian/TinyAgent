@@ -1,0 +1,18 @@
+openai:
+  base_url: "https://api.openai.com/v1"
+  api_key: "sk-your-key"
+  model: "gpt-4.1-mini"
+  timeout: 600
+  extra_headers:
+    X-Trace-Id: "tiny-agent"
+
+chat:
+  system_prompt: "You are a concise and helpful assistant."
+  streaming: true
+  show_reasoning: false
+  show_answer: true
+  context_limit_tokens: 128000
+  enable_context_compression: true
+  compression_threshold: 0.75
+  compression_keep_last_turns: 4
+  summary_model: ""

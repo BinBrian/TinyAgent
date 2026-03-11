@@ -1,0 +1,34 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local dependency vendor dir
+.vendor/
+
+# Runtime files
+temp/
+*.log
+
+# Local config with secrets
+config.yaml
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
